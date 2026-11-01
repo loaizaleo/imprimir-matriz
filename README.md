@@ -43,4 +43,4 @@ Resultado en `inputmatriz.txt`:
 ## Notas
 
 - Solo acepta números enteros.
-- El arreglo se declara de 1000 × 1000 dentro de `main`, lo que ocupa unos 4 MB de la pila. En algunos sistemas (por ejemplo, Windows) esto puede hacer que el programa se cierre al iniciar. Se puede evitar declarando el arreglo como `static` o fuera de `main`.
+- Admite matrices de hasta 1000 × 1000. El arreglo se declara `static` para no llenar la pila (4 MB), lo que en Windows hacía que el programa se cerrara al iniciar.

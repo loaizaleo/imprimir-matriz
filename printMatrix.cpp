@@ -9,7 +9,8 @@ using namespace std;
 
 int main()
 {
-int data[1000][1000],M,i,j;
+static int data[1000][1000]; // static: evita llenar la pila con 4 MB
+int M,i,j;
 FILE * (file);
 
 cout<<"Input size of matrix (mxm) : ";
